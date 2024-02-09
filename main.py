@@ -9,7 +9,7 @@ async def websocket_endpoint(websocket: WebSocket):
     while True:
         data = await websocket.receive_text()
         # Process the image data, for example, you can save it to a file
-        print(f"Received image data with length: {len(data)}")
+        print(f"test")
 
 # In-memory database (for demonstration purposes)
 items = []
